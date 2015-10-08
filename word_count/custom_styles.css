@@ -1,10 +1,8 @@
-*
-
-.dl_horizontal dt {
-
-	white-space: normal;
-
-	word-wrap: break-word;
+* {
 
 }
 
+.dl-horizontal dt {
+	white-space: normal;
+	word-wrap: break-word;
+}
