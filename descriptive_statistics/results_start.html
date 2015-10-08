@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="icon" type="image/png" href="Ruby_logo.png">
+  <link rel="icon" type="image/png" href="../Ruby_logo.png">
   <title>Omnicalc</title>
 
   <!-- Connect to Bootstrap CSS -->
@@ -27,30 +27,70 @@
 <body>
 
 <nav class="navbar navbar-default">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"><i class="fa fa-calculator"></i> Omnicalc</a>
-      </div>
-    </nav>
+  <div class="container-fluid">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">
+      <i class="fa fa-calculator"></i>
+      Omnicalc</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav visible-xs visible-sm">
+
+        <li>
+         <a href="../word_count/new_start.html">
+          <i class="fa fa-book"></i>
+          <span>Word Count</span>
+         </a>
+        </li>
+
+         <li>
+         <a href="../loan_payment/new_start.html">
+          <i class="fa fa-money"></i>
+          <span>Loan Payment</span>
+         </a>
+        </li>
+
+        <li>
+         <a href="../time_between/new_start.html">
+          <i class="fa fa-clock-o"></i>
+          <span>Time Between</span>
+         </a>
+        </li>
+        
+        <li>
+         <a href="../descriptive_statistics/new_start.html">
+          <i class="fa fa-bar-chart"></i>
+          <span>Descriptive Statistics</span>
+         </a>
+        </li>
+        
+      </ul>
+      
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-3">
+         <div class="col-sm-3 hidden-xs hidden-sm">
           <div class="list-group">
-            <a href="#" class="list-group-item"> <i class="fa fa-book"></i> Word Count</a>
-            <a href="#" class="list-group-item"> <i class="fa fa-money"></i> Loan Payment</a>
-            <a href="#" class="list-group-item"> <i class="fa fa-clock-o"></i> Time Between</a>
-            <a href="#" class="list-group-item"> <i class="fa fa-bar-chart"></i> Descriptive Statistics</a>
+            <a href="../word_count/new_start.html" class="list-group-item"> <i class="fa fa-book"></i> Word Count</a>
+            <a href="../loan_payment/new_start.html" class="list-group-item"> <i class="fa fa-money"></i> Loan Payment</a>
+            <a href="../time_between/new_start.html" class="list-group-item"> <i class="fa fa-clock-o"></i> Time Between</a>
+            <a href="../descriptive_statistics/new_start.html" class="list-group-item"> <i class="fa fa-bar-chart"></i> Descriptive Statistics</a>
           </div>
         </div>
-
+        
         <div class="col-sm-9">
 
           <div class="panel panel-default">
